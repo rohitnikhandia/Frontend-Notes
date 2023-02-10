@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelling Monk</title>
+</head>
+
+<body>
+    <header>
+        <h2>Welcome to Travelling Monk</h2>
+    </header>
+    <main>
+        <div>
+            Enter the city name you wanna go:
+            <form action="form.php">
+                <input type="text" , placeholder="City">
+            </form>
+        </div>
+        <div>
+            Choose the travel mode <br>
+
+            <form action="">
+                <label for="busid">
+                    <input type="radio" value="Bus" name="mode" id="busid">Bus <br>
+                </label>
+
+                <label for="trainid">
+                    <input type="radio" value="Train" name="mode" id="trainid">Train <br>
+                </label>
+                <label for="flightid">
+                    <input type="radio" value="Flight" name="mode" id="flightid">Flight <br>
+                </label>
+
+                <section>
+                    <div>
+                        <h4>
+                            Do you need a travel insurance ?
+                        </h4>
+                        <form action="">
+                            <input type="checkbox" name="Travel Insurance" id="Insurance">
+                            <label for="Insurance">Need a travel insurance ?</label>
+                        </form>
+                    </div>
+                </section>
+
+                <div>
+                    <form action="">
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Why do you want to go to your chosen location ?"></textarea>
+                        
+                        <textarea name="anything" id="anything" cols="30" rows="10" placeholder="kuch v likhde bhai"></textarea>
+                        <textarea name="description" id="description" cols="30" rows="10" placeholder="Why do you want to go to your chosen location ?"></textarea>
+                    </form>
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
